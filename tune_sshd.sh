@@ -32,7 +32,6 @@ fi
 
 # Restart sshd to pickup config changes
 if [[ $UNAME == "Linux" ]]; then
-echo "tune_sshd linux"
   if ! $(service sshd restart); then
    service ssh restart
   fi
