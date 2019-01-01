@@ -1,5 +1,5 @@
-# macos_adv_sshd
-Advanced sshd configuration for built in sshd server. Installing this script and launchd plist will maintain some key settings in /etc/ssh/sshd_config on macOS. Apple likes to overwrite this file with system updates. This setup will update the key parts of the config file at every boot to make sure password based login is disabled. Additionally it adds an include directive to /etc/ssh/sshd_config_$HOSTNAME so you can add additional configuration that persists updates. 
+# Advanced sshd configuration for the built in OpenSSH server on macOS
+Installing this script and launchd plist will maintain some key settings in /etc/ssh/sshd_config on macOS. Apple likes to overwrite this file with system updates. This setup will update the key parts of the config file at every boot to make sure password based login is disabled. Additionally it adds an include directive to /etc/ssh/sshd_config_$HOSTNAME so you can add additional configuration that persists updates. 
 
 ### Move files into place
 ```
