@@ -5,7 +5,7 @@
     <key>EnvironmentVariables</key>
     <dict>
       <key>PATH</key>
-      <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:</string>
+      <string>/opt/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:</string>
     </dict>
     <key>Label</key>
     <string>com.tune_sshd</string>
@@ -18,8 +18,8 @@
     <key>LaunchOnlyOnce</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/tmp/tune_sshd.stdout</string>
+    <string>/Library/Logs/tune_sshd.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/tune_sshd.stderr</string>
+    <string>/Library/Logs/tune_sshd.log</string>
   </dict>
 </plist>
