@@ -3,7 +3,7 @@ Installing this script and launchd plist will maintain some key settings in /etc
 
 
 ### Install the script
-Take a minute to review the contents of the install script to see what's going on then run it.
+Take a minute to review the contents of the [install.sh](install.sh) script to see what's going on then run it.
 ```
 ./install.sh
 
