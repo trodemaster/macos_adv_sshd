@@ -2,7 +2,7 @@
 Installing this script and launchd plist will maintain some key settings in /etc/ssh/sshd_config on macOS. Apple likes to overwrite this file with system updates. This setup will update the key parts of the config file at every boot to make sure _password based login is disabled_. 
 
 
-### Install the script
+### Install the tools
 Take a minute to review the contents of the [install.sh](install.sh) script to see what's going on then run it.
 ```
 ./install.sh
