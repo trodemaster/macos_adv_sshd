@@ -10,7 +10,7 @@
     <key>Label</key>
     <string>com.tune_sshd</string>
     <key>Program</key>
-    <string>/Library/Scripts/tune_sshd.sh</string>
+    <string>/usr/local/bin/tune_sshd.sh</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
