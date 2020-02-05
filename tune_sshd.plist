@@ -18,8 +18,8 @@
     <key>LaunchOnlyOnce</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Library/Logs/tune_sshd.log</string>
+    <string>/var/log/tune_sshd.log</string>
     <key>StandardErrorPath</key>
-    <string>/Library/Logs/tune_sshd.log</string>
+    <string>/var/log/tune_sshd.log</string>
   </dict>
 </plist>
