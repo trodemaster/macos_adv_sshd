@@ -9,5 +9,5 @@ Take a minute to review the contents of the install script to see what's going o
 
 ```
 ### Adjust the actual settings
-The tune_sshd.sh script contains a few sed commands to rewrite the /etc/ssh/sshd_config settins. Augment this as needed... 
+The [tune_sshd.sh](tune_sshd.sh) script contains a few sed commands to rewrite the /etc/ssh/sshd_config settins. Augment this as needed... 
 
